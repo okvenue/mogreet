@@ -4,8 +4,8 @@ require File.expand_path('../lib/mogreet/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Andrew Hage"]
   gem.email         = ["andrew@okvenue.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = %q{A ruby wrapper for the Mogreet API}
+  gem.summary       = %q{A simple ruby interface to the api at https://api.mogreet.com}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
