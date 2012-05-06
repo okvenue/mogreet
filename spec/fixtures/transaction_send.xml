@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response status="success" code="1">
+  <message><![CDATA[Mogreet successfully sent!]]></message>
+  <message_id>123456789</message_id>
+  <hash>a12b3c4d</hash>
+</response>
