@@ -18,7 +18,14 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+    response = Mogreet::Message.send to: '5551236789',
+                                     message: 'Hello World!',
+                                     content_url: 'http://rubyonrails.org/images/rails.png'
+    response.status           #=> "success"
+    response.code             #=> "1"
+    response.message          #=> "Mogreet successfully sent!"
+    response.message_id       #=> 123456789
+    response.transaction_hash #=> "a12b3c4d"
 
 ## Contributing
 
